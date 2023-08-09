@@ -1,0 +1,103 @@
+[
+  {
+    "line": 20,
+    "elements": [
+      {
+        "start_timestamp": "2023-08-09T06:37:11.700Z",
+        "before": [
+          {
+            "result": {
+              "duration": 4634446600,
+              "status": "passed"
+            },
+            "match": {
+              "location": "hooks.ServiceHooksUI.setUp(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "line": 29,
+        "name": "Launch the HomePage",
+        "description": "",
+        "id": "ipl-navigation;launch-the-homepage;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 486585200,
+              "status": "passed"
+            },
+            "match": {
+              "location": "hooks.ServiceHooksUI.tearUp(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 14930945100,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "I want to launch application for \"component1\" in \"in\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"component1\"",
+                  "offset": 33
+                },
+                {
+                  "val": "\"in\"",
+                  "offset": 49
+                }
+              ],
+              "location": "stepdefinition.common.WebCommon.iNavigateIntoApplicationFor(java.lang.String,java.lang.String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 51380200,
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "I verify the page title as \"Indian Premier League Official Website\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Indian Premier League Official Website\"",
+                  "offset": 27
+                }
+              ],
+              "location": "stepdefinition.component.HomePage.verifyPageTitle(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@WebReport"
+          },
+          {
+            "name": "@ipl"
+          }
+        ]
+      }
+    ],
+    "name": "Ipl navigation",
+    "description": "",
+    "id": "ipl-navigation",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/web/component/launchHome.feature",
+    "tags": [
+      {
+        "name": "@WebReport",
+        "type": "Tag",
+        "location": {
+          "line": 19,
+          "column": 1
+        }
+      }
+    ]
+  }
+]

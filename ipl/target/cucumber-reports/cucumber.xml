@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="1" time="20.401">
+    <testcase classname="Ipl navigation" name="Launch the HomePage" time="20.199">
+        <system-out>
+            <![CDATA[Given I want to launch application for "component1" in "in".................passed
+Then I verify the page title as "Indian Premier League Official Website"....passed
+]]>
+        </system-out>
+    </testcase>
+</testsuite>
